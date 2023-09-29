@@ -123,7 +123,9 @@ img {
 .hero-container {
    padding-top: 188px;
   padding-bottom: 188px;
-
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .hero-tite {
@@ -151,6 +153,7 @@ img {
   padding: 16px 32px;
   border-radius: 4px;
   margin-top: 48px;
+  
 }
 
 .hero-btn:hover,
